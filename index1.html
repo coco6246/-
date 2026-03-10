@@ -1,0 +1,405 @@
+{\rtf1\ansi\ansicpg936\cocoartf2867
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red109\green109\blue109;\red236\green241\blue247;\red251\green0\blue7;
+\red0\green0\blue0;\red42\green42\blue42;\red107\green0\blue1;\red0\green0\blue255;\red164\green69\blue11;
+\red24\green112\blue43;\red9\green60\blue148;\red19\green118\blue70;\red111\green14\blue195;\red77\green80\blue85;
+\red14\green110\blue109;}
+{\*\expandedcolortbl;;\cssrgb\c50196\c50196\c50196;\cssrgb\c94118\c95686\c97647;\cssrgb\c100000\c0\c0;
+\cssrgb\c0\c0\c0;\cssrgb\c21961\c21961\c21961;\cssrgb\c50196\c0\c0;\cssrgb\c0\c0\c100000;\cssrgb\c70980\c34902\c3137;
+\cssrgb\c9412\c50196\c21961;\cssrgb\c1569\c31765\c64706;\cssrgb\c3529\c52549\c34510;\cssrgb\c51765\c18824\c80784;\cssrgb\c37255\c38824\c40784;
+\cssrgb\c0\c50196\c50196;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 <!DOCTYPE\cf4 \strokec4  html\cf2 \strokec2 >\cf0 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+\cf6 \cb3 \strokec6 <\cf7 \strokec7 html\cf0 \strokec5  \cf4 \strokec4 lang\cf6 \strokec6 =\cf8 \strokec8 "zh-CN"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cf6 \cb3 \strokec6 <\cf7 \strokec7 head\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \cb3     \cf6 \strokec6 <\cf7 \strokec7 meta\cf0 \strokec5  \cf4 \strokec4 charset\cf6 \strokec6 =\cf8 \strokec8 "UTF-8"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 meta\cf0 \strokec5  \cf4 \strokec4 name\cf6 \strokec6 =\cf8 \strokec8 "viewport"\cf0 \strokec5  \cf4 \strokec4 content\cf6 \strokec6 =\cf8 \strokec8 "width=device-width, initial-scale=1.0"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 title\cf6 \strokec6 >\cf0 \strokec5 \uc0\u27665 \u22269 \u24314 \u31569 \u25991 \u21270 \u20256 \u25773 \u25968 \u25454 \u24211  - AI \u22686 \u24378 \u29256 \cf6 \strokec6 </\cf7 \strokec7 title\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 script\cf0 \strokec5  \cf4 \strokec4 src\cf6 \strokec6 =\cf8 \strokec8 "https://cdn.tailwindcss.com"\cf6 \strokec6 ></\cf7 \strokec7 script\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 script\cf0 \strokec5  \cf4 \strokec4 src\cf6 \strokec6 =\cf8 \strokec8 "https://cdn.jsdelivr.net/npm/chart.js"\cf6 \strokec6 ></\cf7 \strokec7 script\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 link\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600;700&display=swap"\cf0 \strokec5  \cf4 \strokec4 rel\cf6 \strokec6 =\cf8 \strokec8 "stylesheet"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 script\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         tailwind.config = \{\cb1 \
+\cb3             theme: \{\cb1 \
+\cb3                 extend: \{\cb1 \
+\cb3                     colors: \{\cb1 \
+\cb3                         paper: \{\cb1 \
+\cb3                             \cf9 \strokec9 100\cf0 \strokec5 : \cf10 \strokec10 '#FDFBF7'\cf0 \strokec5 ,\cb1 \
+\cb3                             \cf9 \strokec9 200\cf0 \strokec5 : \cf10 \strokec10 '#F4EFE6'\cf0 \strokec5 ,\cb1 \
+\cb3                             \cf9 \strokec9 300\cf0 \strokec5 : \cf10 \strokec10 '#E8DED1'\cf0 \strokec5 ,\cb1 \
+\cb3                             \cf9 \strokec9 900\cf0 \strokec5 : \cf10 \strokec10 '#3D3631'\cf0 \cb1 \strokec5 \
+\cb3                         \},\cb1 \
+\cb3                         jade: \{\cb1 \
+\cb3                             \cf9 \strokec9 600\cf0 \strokec5 : \cf10 \strokec10 '#5C7A6D'\cf0 \strokec5 ,\cb1 \
+\cb3                             \cf9 \strokec9 800\cf0 \strokec5 : \cf10 \strokec10 '#3A5248'\cf0 \cb1 \strokec5 \
+\cb3                         \},\cb1 \
+\cb3                         brick: \{\cb1 \
+\cb3                             \cf9 \strokec9 600\cf0 \strokec5 : \cf10 \strokec10 '#9C584C'\cf0 \strokec5 ,\cb1 \
+\cb3                             \cf9 \strokec9 800\cf0 \strokec5 : \cf10 \strokec10 '#753D33'\cf0 \cb1 \strokec5 \
+\cb3                         \}\cb1 \
+\cb3                     \},\cb1 \
+\cb3                     fontFamily: \{\cb1 \
+\cb3                         serif: [\cf10 \strokec10 '"Noto Serif SC"'\cf0 \strokec5 , \cf10 \strokec10 'serif'\cf0 \strokec5 ],\cb1 \
+\cb3                     \}\cb1 \
+\cb3                 \}\cb1 \
+\cb3             \}\cb1 \
+\cb3         \}\cb1 \
+\cb3     \cf6 \strokec6 </\cf7 \strokec7 script\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 style\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf7 \strokec7 body\cf0 \strokec5  \{\cb1 \
+\cb3             \cf4 \strokec4 font-family:\cf0 \strokec5  \cf10 \strokec10 'Noto Serif SC'\cf0 \strokec5 , \cf11 \strokec11 serif\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 background-color:\cf0 \strokec5  \cf11 \strokec11 #FDFBF7\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 color:\cf0 \strokec5  \cf11 \strokec11 #3D3631\cf0 \strokec5 ;\cb1 \
+\cb3         \}\cb1 \
+\cb3         \cf7 \strokec7 .chart-container\cf0 \strokec5  \{\cb1 \
+\cb3             \cf4 \strokec4 position:\cf0 \strokec5  \cf11 \strokec11 relative\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 width:\cf0 \strokec5  \cf12 \strokec12 100%\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 max-width:\cf0 \strokec5  \cf12 \strokec12 600px\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 margin-left:\cf0 \strokec5  \cf11 \strokec11 auto\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 margin-right:\cf0 \strokec5  \cf11 \strokec11 auto\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 height:\cf0 \strokec5  \cf12 \strokec12 300px\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 max-height:\cf0 \strokec5  \cf12 \strokec12 400px\cf0 \strokec5 ;\cb1 \
+\cb3         \}\cb1 \
+\cb3         \cf7 \strokec7 .nav-button.active\cf0 \strokec5  \{\cb1 \
+\cb3             \cf4 \strokec4 background-color:\cf0 \strokec5  \cf11 \strokec11 #3D3631\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 color:\cf0 \strokec5  \cf11 \strokec11 #FDFBF7\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 border-color:\cf0 \strokec5  \cf11 \strokec11 #3D3631\cf0 \strokec5 ;\cb1 \
+\cb3         \}\cb1 \
+\cb3         \cf7 \strokec7 .ai-glow\cf0 \strokec5  \{\cb1 \
+\cb3             \cf4 \strokec4 box-shadow:\cf0 \strokec5  \cf12 \strokec12 0\cf0 \strokec5  \cf12 \strokec12 0\cf0 \strokec5  \cf12 \strokec12 15px\cf0 \strokec5  \cf11 \strokec11 rgba(\cf12 \strokec12 156\cf0 \strokec5 , \cf12 \strokec12 88\cf0 \strokec5 , \cf12 \strokec12 76\cf0 \strokec5 , \cf12 \strokec12 0.2\cf11 \strokec11 )\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 border:\cf0 \strokec5  \cf12 \strokec12 1px\cf0 \strokec5  \cf11 \strokec11 solid\cf0 \strokec5  \cf11 \strokec11 rgba(\cf12 \strokec12 156\cf0 \strokec5 , \cf12 \strokec12 88\cf0 \strokec5 , \cf12 \strokec12 76\cf0 \strokec5 , \cf12 \strokec12 0.3\cf11 \strokec11 )\cf0 \strokec5 ;\cb1 \
+\cb3         \}\cb1 \
+\cb3         \cf13 \strokec13 @keyframes\cf0 \strokec5  \cf11 \strokec11 pulse-soft\cf0 \strokec5  \{\cb1 \
+\cb3             \cf12 \strokec12 0%\cf0 \strokec5 , \cf12 \strokec12 100%\cf0 \strokec5  \{ \cf4 \strokec4 opacity:\cf0 \strokec5  \cf12 \strokec12 1\cf0 \strokec5 ; \}\cb1 \
+\cb3             \cf12 \strokec12 50%\cf0 \strokec5  \{ \cf4 \strokec4 opacity:\cf0 \strokec5  \cf12 \strokec12 0.7\cf0 \strokec5 ; \}\cb1 \
+\cb3         \}\cb1 \
+\cb3         \cf7 \strokec7 .loading-dots:after\cf0 \strokec5  \{\cb1 \
+\cb3             \cf4 \strokec4 content:\cf0 \strokec5  \cf10 \strokec10 '.'\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 animation:\cf0 \strokec5  \cf11 \strokec11 dots\cf0 \strokec5  \cf12 \strokec12 1.5s\cf0 \strokec5  \cf11 \strokec11 steps(\cf12 \strokec12 5\cf0 \strokec5 , \cf11 \strokec11 end)\cf0 \strokec5  \cf11 \strokec11 infinite\cf0 \strokec5 ;\cb1 \
+\cb3         \}\cb1 \
+\cb3         \cf13 \strokec13 @keyframes\cf0 \strokec5  \cf11 \strokec11 dots\cf0 \strokec5  \{\cb1 \
+\cb3             \cf12 \strokec12 0%\cf0 \strokec5 , \cf12 \strokec12 20%\cf0 \strokec5  \{ \cf4 \strokec4 content:\cf0 \strokec5  \cf10 \strokec10 '.'\cf0 \strokec5 ; \}\cb1 \
+\cb3             \cf12 \strokec12 40%\cf0 \strokec5  \{ \cf4 \strokec4 content:\cf0 \strokec5  \cf10 \strokec10 '..'\cf0 \strokec5 ; \}\cb1 \
+\cb3             \cf12 \strokec12 60%\cf0 \strokec5  \{ \cf4 \strokec4 content:\cf0 \strokec5  \cf10 \strokec10 '...'\cf0 \strokec5 ; \}\cb1 \
+\cb3             \cf12 \strokec12 80%\cf0 \strokec5 , \cf12 \strokec12 100%\cf0 \strokec5  \{ \cf4 \strokec4 content:\cf0 \strokec5  \cf10 \strokec10 ''\cf0 \strokec5 ; \}\cb1 \
+\cb3         \}\cb1 \
+\cb3     \cf6 \strokec6 </\cf7 \strokec7 style\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+\cf6 \cb3 \strokec6 </\cf7 \strokec7 head\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cf6 \cb3 \strokec6 <\cf7 \strokec7 body\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "antialiased selection:bg-jade-600 selection:text-white"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\pard\pardeftab720\partightenfactor0
+\cf0 \cb3     \cf14 \strokec14 <!-- Chosen Palette: Warm Paper & Faded History (Paper: #FDFBF7, Brick Red: #9C584C, Muted Jade: #5C7A6D, Charcoal: #3D3631) -->\cf0 \cb1 \strokec5 \
+\cb3     \cf14 \strokec14 <!-- Application Structure Plan: This updated SPA integrates Gemini API directly into the information exploration flow. It maintains the core database schema presentation but adds "AI Intelligence Layers". 1. "AI Copywriter": Converts raw DB fields into creative content. 2. "Contextual Linker": Uses LLM to find non-obvious cultural connections. 3. "Visual Reconstructor": Uses Imagen 4.0 to generate atmosphere-rich imagery based on historical descriptions. The UI uses card-based interactions and clear "Sparkle" branding for AI features. -->\cf0 \cb1 \strokec5 \
+\cb3     \cf14 \strokec14 <!-- Visualization & Content Choices: Donut and Bar charts persist for macro-overview. A new "AI Interaction Zone" is added to the Narrative section. No SVG used. All icons are Emoji or CSS-based. -->\cf0 \cb1 \strokec5 \
+\cb3     \cf14 \strokec14 <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->\cf0 \cb1 \strokec5 \
+\
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 nav\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "sticky top-0 z-50 bg-paper-100/90 backdrop-blur-sm border-b border-paper-300"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between h-16 items-center"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-center gap-3"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-2xl"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u55356 \u57307 \u65039 \cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-bold text-xl tracking-wider text-paper-900"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u27665 \u22269 \u24314 \u31569 \u25991 \u21270 \u25968 \u25454 \u24211 \cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "hidden md:flex space-x-6 items-center"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 a\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "#vision"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-paper-900 hover:text-brick-600 transition-colors"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u25968 \u25454 \u24895 \u26223 \cf6 \strokec6 </\cf7 \strokec7 a\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 a\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "#schema"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-paper-900 hover:text-brick-600 transition-colors"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u26680 \u24515 \u26550 \u26500 \cf6 \strokec6 </\cf7 \strokec7 a\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 a\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "#ai-workshop"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-brick-600 font-bold flex items-center gap-1"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u10024  AI \u23454 \u39564 \u23460 \cf6 \strokec6 </\cf7 \strokec7 a\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 </\cf7 \strokec7 nav\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 main\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-24"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3         \cf14 \strokec14 <!-- Intro -->\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 header\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "vision"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-center space-y-6 pt-8"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 h1\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-4xl md:text-5xl font-bold text-paper-900 tracking-widest leading-tight"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \uc0\u24403 \u25968 \u23383 \u24314 \u31569 \u36935 \u35265 \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-brick-600"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u29983 \u25104 \u24335  AI\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 h1\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "max-w-3xl mx-auto text-lg text-paper-900/80 leading-relaxed"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \uc0\u19981 \u20165 \u20165 \u26159 \u23384 \u20648 \u25968 \u25454 \u65292 \u25105 \u20204 \u27491 \u22312 \u21033 \u29992  \cf6 \strokec6 <\cf7 \strokec7 strong\cf6 \strokec6 >\cf0 \strokec5 Gemini 2.5\cf6 \strokec6 </\cf7 \strokec7 strong\cf6 \strokec6 >\cf0 \strokec5  \uc0\u20026 \u27599 \u19968 \u22359 \u38738 \u30742 \u36171 \u20104 \u34920 \u36798 \u21147 \u12290 \u36890 \u36807  AI\u65292 \u25105 \u20204 \u21487 \u20197 \u33258 \u21160 \u29983 \u25104 \u21382 \u21490 \u25512 \u25991 \u12289 \u32852 \u24819 \u22833 \u25955 \u30340 \u25991 \u29486 \u65292 \u29978 \u33267 \u37325 \u26500 \u24050 \u28040 \u22833 \u30340 \u24314 \u31569 \u24847 \u22659 \u12290 \cb1 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 header\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3         \cf14 \strokec14 <!-- Data Charts Section -->\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 section\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "grid grid-cols-1 lg:grid-cols-2 gap-8"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-paper-200 p-6 rounded-2xl"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 h3\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xl font-bold mb-4 text-center"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u10024  AI \u39044 \u27979 \u65306 \u21463 \u20851 \u27880 \u25925 \u20107 \u20027 \u39064 \cf6 \strokec6 </\cf7 \strokec7 h3\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "chart-container"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 canvas\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "themeChart"\cf6 \strokec6 ></\cf7 \strokec7 canvas\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-paper-200 p-6 rounded-2xl"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 h3\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xl font-bold mb-4 text-center"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u23186 \u20171 \u25968 \u25454 \u20851 \u32852 \u24230 \cf6 \strokec6 </\cf7 \strokec7 h3\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "chart-container"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 canvas\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "mediaChart"\cf6 \strokec6 ></\cf7 \strokec7 canvas\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 section\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3         \cf14 \strokec14 <!-- Schema Tabs -->\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 section\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "schema"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "space-y-8"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-center space-y-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 h2\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-3xl font-bold"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u26680 \u24515 \u25968 \u25454 \u26550 \u26500 \cf6 \strokec6 </\cf7 \strokec7 h2\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-paper-900/60"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u28857 \u20987 \u19979 \u26041 \u26631 \u31614 \u26597 \u30475  AI \u22914 \u20309 \u22686 \u24378 \u20256 \u32479 \u23383 \u27573 \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cb1 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-paper-200 p-4 rounded-2xl shadow-inner"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex flex-wrap gap-2 mb-6 justify-center"\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "tab-buttons"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "nav-button active px-5 py-2 rounded-full border border-paper-900 text-sm font-semibold transition-all"\cf0 \strokec5  \cf4 \strokec4 data-target\cf6 \strokec6 =\cf8 \strokec8 "entity-building"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u55356 \u57307 \u65039  \u24314 \u31569 \u38170 \u28857 \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "nav-button px-5 py-2 rounded-full border border-paper-900 text-sm font-semibold transition-all"\cf0 \strokec5  \cf4 \strokec4 data-target\cf6 \strokec6 =\cf8 \strokec8 "entity-people"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u55357 \u56421  \u39118 \u20113 \u20154 \u29289 \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "tab-contents"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-paper-100 rounded-xl p-8 min-h-[300px]"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "entity-building"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "tab-pane space-y-6"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "grid grid-cols-1 md:grid-cols-2 gap-8"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "space-y-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf7 \strokec7 h4\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-bold text-xl border-b pb-2"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u22522 \u30784 \u23383 \u27573 \cf6 \strokec6 </\cf7 \strokec7 h4\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf7 \strokec7 ul\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "space-y-3 text-sm"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                                     \cf6 \strokec6 <\cf7 \strokec7 li\cf6 \strokec6 ><\cf7 \strokec7 strong\cf6 \strokec6 >\cf0 \strokec5 \uc0\u24314 \u31569 \u32534 \u21495 :\cf6 \strokec6 </\cf7 \strokec7 strong\cf6 \strokec6 >\cf0 \strokec5  B-SHA-001\cf6 \strokec6 </\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                                     \cf6 \strokec6 <\cf7 \strokec7 li\cf6 \strokec6 ><\cf7 \strokec7 strong\cf6 \strokec6 >\cf0 \strokec5 \uc0\u21407 \u21517 :\cf6 \strokec6 </\cf7 \strokec7 strong\cf6 \strokec6 >\cf0 \strokec5  \uc0\u27494 \u24247 \u22823 \u27004  (\u35834 \u26364 \u24213 \u20844 \u23507 )\cf6 \strokec6 </\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                                     \cf6 \strokec6 <\cf7 \strokec7 li\cf6 \strokec6 ><\cf7 \strokec7 strong\cf6 \strokec6 >\cf0 \strokec5 \uc0\u22320 \u29702 \u22352 \u26631 :\cf6 \strokec6 </\cf7 \strokec7 strong\cf6 \strokec6 >\cf0 \strokec5  121.43, 31.20\cf6 \strokec6 </\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 </\cf7 \strokec7 ul\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "space-y-4 p-4 bg-brick-600/5 rounded-lg border-l-4 border-brick-600"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf7 \strokec7 h4\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-bold text-xl text-brick-600 flex items-center gap-2"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u10024  AI \u22686 \u24378 \u23383 \u27573 \cf6 \strokec6 </\cf7 \strokec7 h4\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-sm italic"\cf6 \strokec6 >\cf0 \strokec5 "\uc0\u30001  Gemini \u33258 \u21160 \u26681 \u25454 \u21608 \u36793 \u36335 \u21517 \u19982 \u21382 \u21490 \u35780 \u20215 \u29983 \u25104 "\cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf7 \strokec7 ul\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "space-y-3 text-sm font-medium"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                                     \cf6 \strokec6 <\cf7 \strokec7 li\cf6 \strokec6 ><\cf7 \strokec7 strong\cf6 \strokec6 >\cf0 \strokec5 \uc0\u20256 \u25773 \u37329 \u21477 :\cf6 \strokec6 </\cf7 \strokec7 strong\cf6 \strokec6 >\cf0 \strokec5  "\uc0\u22312 \u28023 \u27966 \u25991 \u21270 \u30340 \u23574 \u35282 \u19978 \u65292 \u36935 \u35265 \u37036 \u36798 \u20811 \u30340 \u27704 \u24658 \u12290 "\cf6 \strokec6 </\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                                     \cf6 \strokec6 <\cf7 \strokec7 li\cf6 \strokec6 ><\cf7 \strokec7 strong\cf6 \strokec6 >\cf0 \strokec5 \uc0\u24773 \u32490 \u30011 \u20687 :\cf6 \strokec6 </\cf7 \strokec7 strong\cf6 \strokec6 >\cf0 \strokec5  \uc0\u23396 \u20658 \u12289 \u25705 \u30331 \u12289 \u23432 \u26395 \u32773 \cf6 \strokec6 </\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 </\cf7 \strokec7 ul\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "entity-people"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "tab-pane space-y-6 hidden"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-center py-10 opacity-60"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u20154 \u29289 \u25968 \u25454 \u21152 \u36733 \u20013 ... (\u28436 \u31034 \u20999 \u25442 \u25928 \u26524 )\cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 section\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3         \cf14 \strokec14 <!-- AI Interaction Workshop -->\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 section\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "ai-workshop"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "space-y-12"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-center space-y-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 h2\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-4xl font-bold text-paper-900"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u10024  AI \u25991 \u21270 \u23454 \u39564 \u23460 \cf6 \strokec6 </\cf7 \strokec7 h2\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-paper-900/70 max-w-2xl mx-auto"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \uc0\u25105 \u20204 \u30452 \u25509 \u38598 \u25104 \u20102  Gemini API\u12290 \u24744 \u21487 \u20197 \u23581 \u35797 \u20197 \u19979 \u23454 \u39564 \u23460 \u21151 \u33021 \u65292 \u30475 \u30475  AI \u22914 \u20309 \u20174 \u25968 \u25454 \u24211 \u20013 \u25366 \u25496 \u26356 \u28145 \u23618 \u30340 \u25991 \u21270 \u20215 \u20540 \u12290 \cb1 \
+\cb3                 \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "grid grid-cols-1 md:grid-cols-3 gap-8"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cb1 \
+\cb3                 \cf14 \strokec14 <!-- Lab 1: Storytelling -->\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-white p-6 rounded-2xl shadow-xl space-y-4 ai-glow"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "h-12 w-12 bg-brick-600 text-white rounded-full flex items-center justify-center text-2xl"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u55357 \u56715 \u65039 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 h3\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xl font-bold"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u10024  AI \u21465 \u20107 \u33050 \u26412 \cf6 \strokec6 </\cf7 \strokec7 h3\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-sm text-paper-900/60"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u36755 \u20837 \u24314 \u31569 \u25110 \u20154 \u29289 \u20851 \u38190 \u35789 \u65292 AI \u23558 \u33258 \u21160 \u20174 \u25968 \u25454 \u24211 \u26816 \u32034 \u24182 \u29983 \u25104 \u19968 \u27573 \u36866 \u21512 \u25238 \u38899 /\u23567 \u32418 \u20070 \u30340 \u21465 \u20107 \u33050 \u26412 \u12290 \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 input\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "narrative-input"\cf0 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf8 \strokec8 "text"\cf0 \strokec5  \cf4 \strokec4 placeholder\cf6 \strokec6 =\cf8 \strokec8 "\uc0\u20363 \u22914 \u65306 \u26519 \u24509 \u22240 \u12289 \u24605 \u21335 \u20844 \u39302 "\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full p-3 border rounded-lg text-sm bg-paper-100"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 onclick\cf6 \strokec6 =\cf8 \strokec8 "generateNarrative()"\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "narrative-btn"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full py-3 bg-paper-900 text-white rounded-lg font-bold hover:bg-brick-800 transition-all"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u29983 \u25104 \u33050 \u26412  \u10024 \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "narrative-result"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "hidden mt-4 p-4 bg-paper-200 rounded-lg text-xs leading-relaxed max-h-40 overflow-y-auto italic"\cf6 \strokec6 ></\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3                 \cf14 \strokec14 <!-- Lab 2: Visual Reconstruction -->\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-white p-6 rounded-2xl shadow-xl space-y-4 ai-glow"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "h-12 w-12 bg-jade-600 text-white rounded-full flex items-center justify-center text-2xl"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u55357 \u56764 \u65039 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 h3\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xl font-bold"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u10024  \u24847 \u22659 \u37325 \u26500 \cf6 \strokec6 </\cf7 \strokec7 h3\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-sm text-paper-900/60"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u22522 \u20110 \u21382 \u21490 \u25551 \u36848 \u23383 \u27573 \u65292 \u35843 \u29992  Imagen 4.0 \u29983 \u25104 \u35813 \u24314 \u31569 \u22312 \u27665 \u22269 \u38632 \u22812 \u25110 \u40644 \u26127 \u26102 \u30340 \u35270 \u35273 \u24847 \u22659 \u22270 \u12290 \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 input\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "visual-input"\cf0 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf8 \strokec8 "text"\cf0 \strokec5  \cf4 \strokec4 placeholder\cf6 \strokec6 =\cf8 \strokec8 "\uc0\u25551 \u36848 \u65306 1930\u24180 \u19978 \u28023 \u38632 \u21518 \u30340 \u24324 \u22530 \u21475 "\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full p-3 border rounded-lg text-sm bg-paper-100"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 onclick\cf6 \strokec6 =\cf8 \strokec8 "generateVisual()"\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "visual-btn"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full py-3 bg-jade-800 text-white rounded-lg font-bold hover:bg-jade-600 transition-all"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u37325 \u26500 \u35270 \u35273  \u10024 \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "visual-loader"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "hidden text-center py-4"\cf6 \strokec6 ><\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "loading-dots"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u27491 \u22312 \u26500 \u24605 \u21382 \u21490 \u30011 \u38754 \cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 ></\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "visual-result"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "hidden mt-4 rounded-lg overflow-hidden border"\cf6 \strokec6 ></\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3                 \cf14 \strokec14 <!-- Lab 3: Linker -->\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-white p-6 rounded-2xl shadow-xl space-y-4 ai-glow"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "h-12 w-12 bg-amber-600 text-white rounded-full flex items-center justify-center text-2xl"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u55357 \u56599 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 h3\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xl font-bold"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u10024  \u21382 \u21490 \u24378 \u20851 \u32852 \cf6 \strokec6 </\cf7 \strokec7 h3\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-sm text-paper-900/60"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u36890 \u36807  LLM \u28145 \u24230 \u23398 \u20064 \u65292 \u32852 \u24819 \u25968 \u25454 \u24211 \u20013 \u26410 \u26366 \u34987 \u26631 \u27880 \u30340 \u38544 \u24418 \u32852 \u31995 \u65288 \u22914 \u21516 \u22312 \u19968 \u22330 \u33310 \u20250 \u20986 \u29616 \u36807 \u65289 \u12290 \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "linker-box"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "p-4 bg-paper-100 rounded-lg min-h-[100px] text-xs"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "opacity-40 mb-2"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u31561 \u24453 \u20998 \u26512 ...\cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex flex-wrap gap-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "px-2 py-1 bg-paper-300 rounded cursor-pointer hover:bg-paper-400 transition"\cf0 \strokec5  \cf4 \strokec4 onclick\cf6 \strokec6 =\cf8 \strokec8 "link('\uc0\u24352 \u29233 \u29618 ')"\cf6 \strokec6 >\cf0 \strokec5 #\uc0\u24352 \u29233 \u29618 \cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "px-2 py-1 bg-paper-300 rounded cursor-pointer hover:bg-paper-400 transition"\cf0 \strokec5  \cf4 \strokec4 onclick\cf6 \strokec6 =\cf8 \strokec8 "link('\uc0\u37036 \u36798 \u20811 ')"\cf6 \strokec6 >\cf0 \strokec5 #\uc0\u37036 \u36798 \u20811 \cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "linker-result"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "hidden p-3 bg-amber-50 text-amber-900 text-xs rounded border border-amber-200"\cf6 \strokec6 ></\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 section\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3         \cf14 \strokec14 <!-- Narrative Showcase -->\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 section\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-paper-900 text-paper-100 p-12 rounded-3xl space-y-8 relative overflow-hidden"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "absolute -right-20 -top-20 w-64 h-64 bg-brick-600/20 rounded-full blur-3xl"\cf6 \strokec6 ></\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "max-w-2xl space-y-4 relative z-10"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 h2\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-3xl font-bold"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u25968 \u25454 \u24211 \u30340 \u26368 \u32456 \u30446 \u26631 \u65306 \cf6 \strokec6 </\cf7 \strokec7 h2\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xl font-light opacity-80 italic"\cf6 \strokec6 >\cf0 \strokec5 \'93\uc0\u35753 \u27599 \u19968 \u24231 \u24314 \u31569 \u65292 \u37117 \u25317 \u26377 \u33258 \u24049 \u30340 \u25968 \u23383 \u26367 \u36523 \u65292 \u22312 \u20803 \u23431 \u23449 \u21644 \u31038 \u20132 \u23186 \u20307 \u20013 \u37325 \u26032 \u27963 \u36807 \u26469 \u12290 \'94\cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex gap-4 pt-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "px-4 py-2 border border-paper-100/30 rounded-full text-sm"\cf6 \strokec6 >\cf0 \strokec5 #\uc0\u25968 \u23383 \u21270 \u20256 \u25215 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "px-4 py-2 border border-paper-100/30 rounded-full text-sm"\cf6 \strokec6 >\cf0 \strokec5 #AI\uc0\u21465 \u20107 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 section\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3     \cf6 \strokec6 </\cf7 \strokec7 main\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 footer\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-paper-100 py-12 border-t border-paper-300"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-6"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-center gap-3"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xl"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u55356 \u57307 \u65039 \cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-bold text-paper-900"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u27665 \u22269 \u24314 \u31569 \u25991 \u21270 \u20256 \u25773 \u25968 \u25454 \u24211 \cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-sm text-paper-900/40"\cf6 \strokec6 >\cf0 \strokec5 Powered by Gemini 2.5 Flash & Imagen 4.0\cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 </\cf7 \strokec7 footer\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 script\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf13 \strokec13 const\cf0 \strokec5  apiKey = \cf10 \strokec10 ""\cf0 \strokec5 ; \cf14 \strokec14 // Runtime provides this\cf0 \cb1 \strokec5 \
+\
+\cb3         \cf14 \strokec14 // --- API Helpers with Retries ---\cf0 \cb1 \strokec5 \
+\cb3         \cf13 \strokec13 async\cf0 \strokec5  \cf13 \strokec13 function\cf0 \strokec5  callGemini(prompt, systemPrompt = \cf10 \strokec10 "You are a historical architecture expert."\cf0 \strokec5 ) \{\cb1 \
+\cb3             \cf13 \strokec13 let\cf0 \strokec5  retries = \cf9 \strokec9 5\cf0 \strokec5 ;\cb1 \
+\cb3             \cf13 \strokec13 let\cf0 \strokec5  delay = \cf9 \strokec9 1000\cf0 \strokec5 ;\cb1 \
+\cb3             \cf13 \strokec13 while\cf0 \strokec5  (retries > \cf9 \strokec9 0\cf0 \strokec5 ) \{\cb1 \
+\cb3                 \cf13 \strokec13 try\cf0 \strokec5  \{\cb1 \
+\cb3                     \cf13 \strokec13 const\cf0 \strokec5  response = \cf13 \strokec13 await\cf0 \strokec5  fetch(\cf10 \strokec10 `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=\cf0 \strokec5 $\{apiKey\}\cf10 \strokec10 `\cf0 \strokec5 , \{\cb1 \
+\cb3                         method: \cf10 \strokec10 'POST'\cf0 \strokec5 ,\cb1 \
+\cb3                         headers: \{ \cf10 \strokec10 'Content-Type'\cf0 \strokec5 : \cf10 \strokec10 'application/json'\cf0 \strokec5  \},\cb1 \
+\cb3                         body: \cf15 \strokec15 JSON\cf0 \strokec5 .stringify(\{\cb1 \
+\cb3                             contents: [\{ parts: [\{ text: prompt \}] \}],\cb1 \
+\cb3                             systemInstruction: \{ parts: [\{ text: systemPrompt \}] \}\cb1 \
+\cb3                         \})\cb1 \
+\cb3                     \});\cb1 \
+\cb3                     \cf13 \strokec13 const\cf0 \strokec5  data = \cf13 \strokec13 await\cf0 \strokec5  response.json();\cb1 \
+\cb3                     \cf13 \strokec13 return\cf0 \strokec5  data.candidates?.[\cf9 \strokec9 0\cf0 \strokec5 ]?.content?.parts?.[\cf9 \strokec9 0\cf0 \strokec5 ]?.text;\cb1 \
+\cb3                 \} \cf13 \strokec13 catch\cf0 \strokec5  (e) \{\cb1 \
+\cb3                     retries--;\cb1 \
+\cb3                     \cf13 \strokec13 if\cf0 \strokec5  (retries === \cf9 \strokec9 0\cf0 \strokec5 ) \cf13 \strokec13 throw\cf0 \strokec5  e;\cb1 \
+\cb3                     \cf13 \strokec13 await\cf0 \strokec5  \cf13 \strokec13 new\cf0 \strokec5  \cf15 \strokec15 Promise\cf0 \strokec5 (r => setTimeout(r, delay));\cb1 \
+\cb3                     delay *= \cf9 \strokec9 2\cf0 \strokec5 ;\cb1 \
+\cb3                 \}\cb1 \
+\cb3             \}\cb1 \
+\cb3         \}\cb1 \
+\
+\cb3         \cf13 \strokec13 async\cf0 \strokec5  \cf13 \strokec13 function\cf0 \strokec5  callImagen(promptText) \{\cb1 \
+\cb3             \cf13 \strokec13 try\cf0 \strokec5  \{\cb1 \
+\cb3                 \cf13 \strokec13 const\cf0 \strokec5  response = \cf13 \strokec13 await\cf0 \strokec5  fetch(\cf10 \strokec10 `https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict?key=\cf0 \strokec5 $\{apiKey\}\cf10 \strokec10 `\cf0 \strokec5 , \{\cb1 \
+\cb3                     method: \cf10 \strokec10 'POST'\cf0 \strokec5 ,\cb1 \
+\cb3                     headers: \{ \cf10 \strokec10 'Content-Type'\cf0 \strokec5 : \cf10 \strokec10 'application/json'\cf0 \strokec5  \},\cb1 \
+\cb3                     body: \cf15 \strokec15 JSON\cf0 \strokec5 .stringify(\{\cb1 \
+\cb3                         instances: [\{ prompt: promptText \}],\cb1 \
+\cb3                         parameters: \{ sampleCount: \cf9 \strokec9 1\cf0 \strokec5  \}\cb1 \
+\cb3                     \})\cb1 \
+\cb3                 \});\cb1 \
+\cb3                 \cf13 \strokec13 const\cf0 \strokec5  data = \cf13 \strokec13 await\cf0 \strokec5  response.json();\cb1 \
+\cb3                 \cf13 \strokec13 return\cf0 \strokec5  \cf10 \strokec10 `data:image/png;base64,\cf0 \strokec5 $\{data.predictions[\cf9 \strokec9 0\cf0 \strokec5 ].bytesBase64Encoded\}\cf10 \strokec10 `\cf0 \strokec5 ;\cb1 \
+\cb3             \} \cf13 \strokec13 catch\cf0 \strokec5  (e) \{\cb1 \
+\cb3                 console.error(e);\cb1 \
+\cb3                 \cf13 \strokec13 return\cf0 \strokec5  \cf13 \strokec13 null\cf0 \strokec5 ;\cb1 \
+\cb3             \}\cb1 \
+\cb3         \}\cb1 \
+\
+\cb3         \cf14 \strokec14 // --- UI Interactions ---\cf0 \cb1 \strokec5 \
+\cb3         \cf13 \strokec13 async\cf0 \strokec5  \cf13 \strokec13 function\cf0 \strokec5  generateNarrative() \{\cb1 \
+\cb3             \cf13 \strokec13 const\cf0 \strokec5  input = document.getElementById(\cf10 \strokec10 'narrative-input'\cf0 \strokec5 ).value;\cb1 \
+\cb3             \cf13 \strokec13 const\cf0 \strokec5  btn = document.getElementById(\cf10 \strokec10 'narrative-btn'\cf0 \strokec5 );\cb1 \
+\cb3             \cf13 \strokec13 const\cf0 \strokec5  result = document.getElementById(\cf10 \strokec10 'narrative-result'\cf0 \strokec5 );\cb1 \
+\cb3             \cb1 \
+\cb3             \cf13 \strokec13 if\cf0 \strokec5  (!input) \cf13 \strokec13 return\cf0 \strokec5 ;\cb1 \
+\cb3             \cb1 \
+\cb3             btn.innerText = \cf10 \strokec10 "\uc0\u27491 \u22312 \u32852 \u24819 ..."\cf0 \strokec5 ;\cb1 \
+\cb3             btn.disabled = \cf13 \strokec13 true\cf0 \strokec5 ;\cb1 \
+\cb3             result.classList.add(\cf10 \strokec10 'hidden'\cf0 \strokec5 );\cb1 \
+\
+\cb3             \cf13 \strokec13 const\cf0 \strokec5  text = \cf13 \strokec13 await\cf0 \strokec5  callGemini(\cf10 \strokec10 `\uc0\u35831 \u26681 \u25454 \u20851 \u38190 \u35789 \'93\cf0 \strokec5 $\{input\}\cf10 \strokec10 \'94\uc0\u65292 \u32467 \u21512 \u27665 \u22269 \u24314 \u31569 \u25991 \u21270 \u32972 \u26223 \u65292 \u21019 \u20316 \u19968 \u27573 \u36866 \u21512 \u23567 \u32418 \u20070 \u21457 \u24067 \u30340 \u21465 \u20107 \u33050 \u26412 \u65292 \u23383 \u25968 \u32422 150\u23383 \u65292 \u24102 \u26377 \u24576 \u26087 \u21644 \u25705 \u30331 \u30340 \u22522 \u35843 \u12290 `\cf0 \strokec5 );\cb1 \
+\cb3             \cb1 \
+\cb3             \cf13 \strokec13 if\cf0 \strokec5  (text) \{\cb1 \
+\cb3                 result.innerText = text;\cb1 \
+\cb3                 result.classList.remove(\cf10 \strokec10 'hidden'\cf0 \strokec5 );\cb1 \
+\cb3             \}\cb1 \
+\cb3             btn.innerText = \cf10 \strokec10 "\uc0\u29983 \u25104 \u33050 \u26412  \u10024 "\cf0 \strokec5 ;\cb1 \
+\cb3             btn.disabled = \cf13 \strokec13 false\cf0 \strokec5 ;\cb1 \
+\cb3         \}\cb1 \
+\
+\cb3         \cf13 \strokec13 async\cf0 \strokec5  \cf13 \strokec13 function\cf0 \strokec5  generateVisual() \{\cb1 \
+\cb3             \cf13 \strokec13 const\cf0 \strokec5  input = document.getElementById(\cf10 \strokec10 'visual-input'\cf0 \strokec5 ).value;\cb1 \
+\cb3             \cf13 \strokec13 const\cf0 \strokec5  btn = document.getElementById(\cf10 \strokec10 'visual-btn'\cf0 \strokec5 );\cb1 \
+\cb3             \cf13 \strokec13 const\cf0 \strokec5  result = document.getElementById(\cf10 \strokec10 'visual-result'\cf0 \strokec5 );\cb1 \
+\cb3             \cf13 \strokec13 const\cf0 \strokec5  loader = document.getElementById(\cf10 \strokec10 'visual-loader'\cf0 \strokec5 );\cb1 \
+\cb3             \cb1 \
+\cb3             \cf13 \strokec13 if\cf0 \strokec5  (!input) \cf13 \strokec13 return\cf0 \strokec5 ;\cb1 \
+\
+\cb3             btn.disabled = \cf13 \strokec13 true\cf0 \strokec5 ;\cb1 \
+\cb3             loader.classList.remove(\cf10 \strokec10 'hidden'\cf0 \strokec5 );\cb1 \
+\cb3             result.classList.add(\cf10 \strokec10 'hidden'\cf0 \strokec5 );\cb1 \
+\
+\cb3             \cf13 \strokec13 const\cf0 \strokec5  imageUrl = \cf13 \strokec13 await\cf0 \strokec5  callImagen(\cf10 \strokec10 `Cinematic oil painting style, Republican China period architecture, \cf0 \strokec5 $\{input\}\cf10 \strokec10 , atmospheric lighting, nostalgia, high detail, 1930s style.`\cf0 \strokec5 );\cb1 \
+\cb3             \cb1 \
+\cb3             \cf13 \strokec13 if\cf0 \strokec5  (imageUrl) \{\cb1 \
+\cb3                 result.innerHTML = \cf10 \strokec10 `<img src="\cf0 \strokec5 $\{imageUrl\}\cf10 \strokec10 " class="w-full h-auto" alt="AI Reconstructed Vision">`\cf0 \strokec5 ;\cb1 \
+\cb3                 result.classList.remove(\cf10 \strokec10 'hidden'\cf0 \strokec5 );\cb1 \
+\cb3             \}\cb1 \
+\cb3             loader.classList.add(\cf10 \strokec10 'hidden'\cf0 \strokec5 );\cb1 \
+\cb3             btn.disabled = \cf13 \strokec13 false\cf0 \strokec5 ;\cb1 \
+\cb3         \}\cb1 \
+\
+\cb3         \cf13 \strokec13 async\cf0 \strokec5  \cf13 \strokec13 function\cf0 \strokec5  link(name) \{\cb1 \
+\cb3             \cf13 \strokec13 const\cf0 \strokec5  res = document.getElementById(\cf10 \strokec10 'linker-result'\cf0 \strokec5 );\cb1 \
+\cb3             res.classList.remove(\cf10 \strokec10 'hidden'\cf0 \strokec5 );\cb1 \
+\cb3             res.innerText = \cf10 \strokec10 "AI \uc0\u27491 \u22312 \u31359 \u36234 \u21382 \u21490 \u36855 \u38654 ..."\cf0 \strokec5 ;\cb1 \
+\cb3             \cb1 \
+\cb3             \cf13 \strokec13 const\cf0 \strokec5  text = \cf13 \strokec13 await\cf0 \strokec5  callGemini(\cf10 \strokec10 `\uc0\u22312 \u27665 \u22269 \u24314 \u31569 \u25991 \u21270 \u35821 \u22659 \u19979 \u65292 \u21015 \u20986 3\u20010 \u19982 \'93\cf0 \strokec5 $\{name\}\cf10 \strokec10 \'94\uc0\u26377 \u38544 \u24418 \u20851 \u32852 \u30340 \u20154 \u29289 \u25110 \u24314 \u31569 \u65292 \u24182 \u31616 \u36848 \u21407 \u22240 \u12290 \u26684 \u24335 \u65306 1. \u21517 \u31216  - \u21407 \u22240 \u12290 `\cf0 \strokec5 );\cb1 \
+\cb3             res.innerText = text || \cf10 \strokec10 "\uc0\u36830 \u25509 \u22833 \u36133 "\cf0 \strokec5 ;\cb1 \
+\cb3         \}\cb1 \
+\
+\cb3         \cf14 \strokec14 // --- Charts Initialization ---\cf0 \cb1 \strokec5 \
+\cb3         window.onload = \cf13 \strokec13 function\cf0 \strokec5 () \{\cb1 \
+\cb3             \cf13 \strokec13 const\cf0 \strokec5  themeCtx = document.getElementById(\cf10 \strokec10 'themeChart'\cf0 \strokec5 ).getContext(\cf10 \strokec10 '2d'\cf0 \strokec5 );\cb1 \
+\cb3             \cf13 \strokec13 new\cf0 \strokec5  \cf15 \strokec15 Chart\cf0 \strokec5 (themeCtx, \{\cb1 \
+\cb3                 type: \cf10 \strokec10 'doughnut'\cf0 \strokec5 ,\cb1 \
+\cb3                 data: \{\cb1 \
+\cb3                     labels: [\cf10 \strokec10 '\uc0\u25919 \u21830 \u20113 \u38598 '\cf0 \strokec5 , \cf10 \strokec10 '\uc0\u25991 \u20154 \u27801 \u40857 '\cf0 \strokec5 , \cf10 \strokec10 '\uc0\u29983 \u27963 \u20999 \u29255 '\cf0 \strokec5 , \cf10 \strokec10 '\uc0\u35774 \u35745 \u32654 \u23398 '\cf0 \strokec5 ],\cb1 \
+\cb3                     datasets: [\{\cb1 \
+\cb3                         data: [\cf9 \strokec9 40\cf0 \strokec5 , \cf9 \strokec9 30\cf0 \strokec5 , \cf9 \strokec9 20\cf0 \strokec5 , \cf9 \strokec9 10\cf0 \strokec5 ],\cb1 \
+\cb3                         backgroundColor: [\cf10 \strokec10 '#9C584C'\cf0 \strokec5 , \cf10 \strokec10 '#5C7A6D'\cf0 \strokec5 , \cf10 \strokec10 '#D4C3B3'\cf0 \strokec5 , \cf10 \strokec10 '#3D3631'\cf0 \strokec5 ],\cb1 \
+\cb3                         borderColor: \cf10 \strokec10 '#F4EFE6'\cf0 \strokec5 ,\cb1 \
+\cb3                         borderWidth: \cf9 \strokec9 5\cf0 \cb1 \strokec5 \
+\cb3                     \}]\cb1 \
+\cb3                 \},\cb1 \
+\cb3                 options: \{ maintainAspectRatio: \cf13 \strokec13 false\cf0 \strokec5 , plugins: \{ legend: \{ position: \cf10 \strokec10 'bottom'\cf0 \strokec5  \} \} \}\cb1 \
+\cb3             \});\cb1 \
+\
+\cb3             \cf13 \strokec13 const\cf0 \strokec5  mediaCtx = document.getElementById(\cf10 \strokec10 'mediaChart'\cf0 \strokec5 ).getContext(\cf10 \strokec10 '2d'\cf0 \strokec5 );\cb1 \
+\cb3             \cf13 \strokec13 new\cf0 \strokec5  \cf15 \strokec15 Chart\cf0 \strokec5 (mediaCtx, \{\cb1 \
+\cb3                 type: \cf10 \strokec10 'bar'\cf0 \strokec5 ,\cb1 \
+\cb3                 data: \{\cb1 \
+\cb3                     labels: [\cf10 \strokec10 '\uc0\u25253 \u32440 '\cf0 \strokec5 , \cf10 \strokec10 '\uc0\u20449 \u20214 '\cf0 \strokec5 , \cf10 \strokec10 '\uc0\u29031 \u29255 '\cf0 \strokec5 , \cf10 \strokec10 '\uc0\u26723 \u26696 '\cf0 \strokec5 ],\cb1 \
+\cb3                     datasets: [\{\cb1 \
+\cb3                         label: \cf10 \strokec10 '\uc0\u20851 \u32852 \u26435 \u37325 '\cf0 \strokec5 ,\cb1 \
+\cb3                         data: [\cf9 \strokec9 85\cf0 \strokec5 , \cf9 \strokec9 60\cf0 \strokec5 , \cf9 \strokec9 95\cf0 \strokec5 , \cf9 \strokec9 40\cf0 \strokec5 ],\cb1 \
+\cb3                         backgroundColor: \cf10 \strokec10 '#9C584C'\cf0 \cb1 \strokec5 \
+\cb3                     \}]\cb1 \
+\cb3                 \},\cb1 \
+\cb3                 options: \{ maintainAspectRatio: \cf13 \strokec13 false\cf0 \strokec5 , scales: \{ y: \{ beginAtZero: \cf13 \strokec13 true\cf0 \strokec5  \} \} \}\cb1 \
+\cb3             \});\cb1 \
+\cb3         \};\cb1 \
+\
+\cb3         \cf14 \strokec14 // Tabs Logic\cf0 \cb1 \strokec5 \
+\cb3         document.querySelectorAll(\cf10 \strokec10 '.nav-button'\cf0 \strokec5 ).forEach(btn => \{\cb1 \
+\cb3             btn.addEventListener(\cf10 \strokec10 'click'\cf0 \strokec5 , \cf13 \strokec13 function\cf0 \strokec5 () \{\cb1 \
+\cb3                 document.querySelectorAll(\cf10 \strokec10 '.nav-button'\cf0 \strokec5 ).forEach(b => b.classList.remove(\cf10 \strokec10 'active'\cf0 \strokec5 ));\cb1 \
+\cb3                 \cf13 \strokec13 this\cf0 \strokec5 .classList.add(\cf10 \strokec10 'active'\cf0 \strokec5 );\cb1 \
+\cb3                 document.querySelectorAll(\cf10 \strokec10 '.tab-pane'\cf0 \strokec5 ).forEach(p => p.classList.add(\cf10 \strokec10 'hidden'\cf0 \strokec5 ));\cb1 \
+\cb3                 document.getElementById(\cf13 \strokec13 this\cf0 \strokec5 .dataset.target).classList.remove(\cf10 \strokec10 'hidden'\cf0 \strokec5 );\cb1 \
+\cb3             \});\cb1 \
+\cb3         \});\cb1 \
+\cb3     \cf6 \strokec6 </\cf7 \strokec7 script\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+\cf6 \cb3 \strokec6 </\cf7 \strokec7 body\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cf6 \cb3 \strokec6 </\cf7 \strokec7 html\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+}
